@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31626" started-at="2020-07-28T17:43:00 PDT" finished-at="2020-07-28T17:43:32 PDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runners.runner@69a3d1d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="31626" started-at="2020-07-28T17:43:00 PDT" finished-at="2020-07-28T17:43:32 PDT">
+      <class name="Runners.runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runners.runner@69a3d1d]" name="setUpClass" is-config="true" duration-ms="368" started-at="2020-07-28T17:43:00 PDT" finished-at="2020-07-28T17:43:00 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runners.runner@69a3d1d]" name="feature" duration-ms="30964" started-at="2020-07-28T17:43:00 PDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-28T17:43:31 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kayak functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners.runner@69a3d1d]" name="tearDownClass" is-config="true" duration-ms="120" started-at="2020-07-28T17:43:31 PDT" finished-at="2020-07-28T17:43:32 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runners.runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

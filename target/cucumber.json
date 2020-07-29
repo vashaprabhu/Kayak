@@ -1,0 +1,230 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify kayak page",
+        "description": "",
+        "id": "kayak-functionality;verify-kayak-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6822301600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "connect to \"Browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Browser",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefin.connect_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1830778800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefin.open(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2576456100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on \"flights\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "flights",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefin.click_on_option(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3668158400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click origin enter \"startPlace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "startPlace",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefin.click_origin_enter(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2269854400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on destination enter \"endPlace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "endPlace",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefin.click_on_destination_enter(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1256524700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on startDate",
+            "match": {
+              "location": "stepDefin.click_on_startDate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2329808200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select dates \"start\", \"end\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "start",
+                  "offset": 14
+                },
+                {
+                  "val": "end",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefin.select_dates(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83395000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on search button",
+            "match": {
+              "location": "stepDefin.click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1636140100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Close Covid Info Dialoug box",
+            "match": {
+              "location": "stepDefin.close_Covid_Info_Dialoug_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1689236600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "search result page will be visible",
+            "match": {
+              "location": "stepDefin.search_result_page_will_be_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281130500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "page contains result flights",
+            "match": {
+              "location": "stepDefin.page_contains_result_flights()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5305644700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "select Nth flight from resultpage",
+            "match": {
+              "location": "stepDefin.select_Nth_flight_from_resultpage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677967700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "start, end cities are same as entered",
+            "match": {
+              "location": "stepDefin.start_end_cities_are_same_as_entered()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 371750700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefin.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "kayak functionality",
+    "description": "",
+    "id": "kayak-functionality",
+    "keyword": "Feature",
+    "uri": "features/kayak1.feature"
+  }
+]

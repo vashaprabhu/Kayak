@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.799148">
+<testcase classname="kayak functionality" name="Verify kayak page" time="30.799148">
+<system-out><![CDATA[Given connect to "Browser"..................................................passed
+When open "url".............................................................passed
+Then click on "flights" option..............................................passed
+Then click origin enter "startPlace"........................................passed
+And Click on destination enter "endPlace"...................................passed
+Then click on startDate.....................................................passed
+And select dates "start", "end".............................................passed
+Then Click on search button.................................................passed
+Then Close Covid Info Dialoug box...........................................passed
+Then search result page will be visible.....................................passed
+And page contains result flights............................................passed
+And select Nth flight from resultpage.......................................passed
+Then start, end cities are same as entered..................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

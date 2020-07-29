@@ -1,0 +1,254 @@
+[
+  {
+    "source": "^click origin enter \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "click origin enter \"startPlace\"",
+        "aggregatedDurations": {
+          "average": 3.6681584,
+          "median": 3.6681584
+        },
+        "durations": [
+          {
+            "duration": 3.6681584,
+            "location": "features/kayak1.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^search result page will be visible$",
+    "steps": [
+      {
+        "name": "search result page will be visible",
+        "aggregatedDurations": {
+          "average": 1.6892366,
+          "median": 1.6892366
+        },
+        "durations": [
+          {
+            "duration": 1.6892366,
+            "location": "features/kayak1.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on \"([^\"]*)\" option$",
+    "steps": [
+      {
+        "name": "click on \"flights\" option",
+        "aggregatedDurations": {
+          "average": 2.5764561,
+          "median": 2.5764561
+        },
+        "durations": [
+          {
+            "duration": 2.5764561,
+            "location": "features/kayak1.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Close Covid Info Dialoug box$",
+    "steps": [
+      {
+        "name": "Close Covid Info Dialoug box",
+        "aggregatedDurations": {
+          "average": 1.6361401,
+          "median": 1.6361401
+        },
+        "durations": [
+          {
+            "duration": 1.6361401,
+            "location": "features/kayak1.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^open \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "open \"url\"",
+        "aggregatedDurations": {
+          "average": 1.8307788,
+          "median": 1.8307788
+        },
+        "durations": [
+          {
+            "duration": 1.8307788,
+            "location": "features/kayak1.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^connect to \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "connect to \"Browser\"",
+        "aggregatedDurations": {
+          "average": 6.8223016,
+          "median": 6.8223016
+        },
+        "durations": [
+          {
+            "duration": 6.8223016,
+            "location": "features/kayak1.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on destination enter \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Click on destination enter \"endPlace\"",
+        "aggregatedDurations": {
+          "average": 2.2698544,
+          "median": 2.2698544
+        },
+        "durations": [
+          {
+            "duration": 2.2698544,
+            "location": "features/kayak1.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^start, end cities are same as entered$",
+    "steps": [
+      {
+        "name": "start, end cities are same as entered",
+        "aggregatedDurations": {
+          "average": 0.6779677,
+          "median": 0.6779677
+        },
+        "durations": [
+          {
+            "duration": 0.6779677,
+            "location": "features/kayak1.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on startDate$",
+    "steps": [
+      {
+        "name": "click on startDate",
+        "aggregatedDurations": {
+          "average": 1.2565247,
+          "median": 1.2565247
+        },
+        "durations": [
+          {
+            "duration": 1.2565247,
+            "location": "features/kayak1.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^select dates \"([^\"]*)\", \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "select dates \"start\", \"end\"",
+        "aggregatedDurations": {
+          "average": 2.3298082,
+          "median": 2.3298082
+        },
+        "durations": [
+          {
+            "duration": 2.3298082,
+            "location": "features/kayak1.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^page contains result flights$",
+    "steps": [
+      {
+        "name": "page contains result flights",
+        "aggregatedDurations": {
+          "average": 0.2811305,
+          "median": 0.2811305
+        },
+        "durations": [
+          {
+            "duration": 0.2811305,
+            "location": "features/kayak1.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on search button$",
+    "steps": [
+      {
+        "name": "Click on search button",
+        "aggregatedDurations": {
+          "average": 0.083395,
+          "median": 0.083395
+        },
+        "durations": [
+          {
+            "duration": 0.083395,
+            "location": "features/kayak1.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^select Nth flight from resultpage$",
+    "steps": [
+      {
+        "name": "select Nth flight from resultpage",
+        "aggregatedDurations": {
+          "average": 5.3056447,
+          "median": 5.3056447
+        },
+        "durations": [
+          {
+            "duration": 5.3056447,
+            "location": "features/kayak1.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close the browser$",
+    "steps": [
+      {
+        "name": "close the browser",
+        "aggregatedDurations": {
+          "average": 0.3717507,
+          "median": 0.3717507
+        },
+        "durations": [
+          {
+            "duration": 0.3717507,
+            "location": "features/kayak1.feature:19"
+          }
+        ]
+      }
+    ]
+  }
+]

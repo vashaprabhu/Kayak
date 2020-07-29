@@ -1,0 +1,17 @@
+Feature: kayak functionality
+
+  Scenario: Verify kayak page                  [90m# features/kayak1.feature:5[0m
+    [32mGiven [0m[32mconnect to "[0m[32m[1mBrowser[0m[32m"[0m                 [90m# stepDefin.connect_to(String)[0m
+    [32mWhen [0m[32mopen "[0m[32m[1murl[0m[32m"[0m                            [90m# stepDefin.open(String)[0m
+    [32mThen [0m[32mclick on "[0m[32m[1mflights[0m[32m" option[0m             [90m# stepDefin.click_on_option(String)[0m
+    [32mThen [0m[32mclick origin enter "[0m[32m[1mstartPlace[0m[32m"[0m       [90m# stepDefin.click_origin_enter(String)[0m
+    [32mAnd [0m[32mClick on destination enter "[0m[32m[1mendPlace[0m[32m"[0m  [90m# stepDefin.click_on_destination_enter(String)[0m
+    [32mThen [0m[32mclick on startDate[0m                    [90m# stepDefin.click_on_startDate()[0m
+    [32mAnd [0m[32mselect dates "[0m[32m[1mstart[0m[32m", "[0m[32m[1mend[0m[32m"[0m            [90m# stepDefin.select_dates(String,String)[0m
+    [32mThen [0m[32mClick on search button[0m                [90m# stepDefin.click_on_search_button()[0m
+    [32mThen [0m[32mClose Covid Info Dialoug box[0m          [90m# stepDefin.close_Covid_Info_Dialoug_box()[0m
+    [32mThen [0m[32msearch result page will be visible[0m    [90m# stepDefin.search_result_page_will_be_visible()[0m
+    [32mAnd [0m[32mpage contains result flights[0m           [90m# stepDefin.page_contains_result_flights()[0m
+    [32mAnd [0m[32mselect Nth flight from resultpage[0m      [90m# stepDefin.select_Nth_flight_from_resultpage()[0m
+    [32mThen [0m[32mstart, end cities are same as entered[0m [90m# stepDefin.start_end_cities_are_same_as_entered()[0m
+    [32mThen [0m[32mclose the browser[0m                     [90m# stepDefin.close_the_browser()[0m
